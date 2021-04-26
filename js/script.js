@@ -6,13 +6,15 @@ var root = document.getElementById("root");
 
 var password = document.getElementById("password");
 
-var nomeUtente = prompt("Qual'è il tuo nome?");
-console.log(nomeUtente);
+function myFunction() {
+    var nomeUtente = prompt("Qual'è il tuo nome?");
+    console.log(nomeUtente);
 
-var cognomeUtente = prompt("Qual'è il tuo cognome?")
+    var cognomeUtente = prompt("Qual'è il tuo cognome?")
 
-var colorePreferito = prompt("Qual'è il tuo colore preferito?")
+    var colorePreferito = prompt("Qual'è il tuo colore preferito?")
 
-root.innerHTML = "Ciao " + nomeUtente + ", la password generata per te è: ";
+    root.innerHTML = "Ciao " + nomeUtente + ", la password generata per te è:";
 
-password.innerHTML = " " + nomeUtente + cognomeUtente + colorePreferito + "21";
+    password.innerHTML = " " + nomeUtente + cognomeUtente + colorePreferito + "21";
+}
