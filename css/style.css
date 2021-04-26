@@ -13,6 +13,10 @@ h1 {
     margin-bottom: 4%;
 }
 
+h2 {
+    margin: 3% 0;
+}
+
 
 /* Password generator */
 
@@ -26,4 +30,8 @@ h2#root {
     font-weight: 700;
     text-decoration: underline;
     color: red;
+}
+
+#make-custom-profile {
+    display: none;
 }

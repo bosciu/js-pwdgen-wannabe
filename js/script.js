@@ -6,6 +6,8 @@ var root = document.getElementById("root");
 
 var password = document.getElementById("password");
 
+var gameTwo = document.getElementById("make-custom-profile");
+
 function myFunction() {
     var nomeUtente = prompt("Qual'è il tuo nome?");
 
@@ -16,4 +18,6 @@ function myFunction() {
     root.innerHTML = "Ciao " + nomeUtente + ", la password generata per te è:";
 
     password.innerHTML = " " + nomeUtente + cognomeUtente + colorePreferito + "21";
+
+    gameTwo.style.display = "block";
 }
