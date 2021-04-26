@@ -2,11 +2,17 @@
 poi chiedi il suo cognome,
 poi chiedi il suo colore preferito
 Infine scrivi sulla pagina nomecognomecolorepreferito21 */
+var root = document.getElementById("root");
+
+var password = document.getElementById("password");
 
 var nomeUtente = prompt("Qual'è il tuo nome?");
+console.log(nomeUtente);
 
 var cognomeUtente = prompt("Qual'è il tuo cognome?")
 
 var colorePreferito = prompt("Qual'è il tuo colore preferito?")
 
-document.getElementById("root").innerHTML = "Ciao " + nomeUtente + ", la password generata per te è: " + nomeUtente + cognomeUtente + colorePreferito + "21";
+root.innerHTML = "Ciao " + nomeUtente + ", la password generata per te è: ";
+
+password.innerHTML = " " + nomeUtente + cognomeUtente + colorePreferito + "21";

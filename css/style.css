@@ -1,0 +1,16 @@
+/* Password generator */
+
+.password-generator {
+    text-align: center;
+}
+
+h1#root {
+    display: inline-block;
+}
+
+#password {
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: red;
+}
