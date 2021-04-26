@@ -1,13 +1,20 @@
-/* Password generator */
+/* Common */
 
-body {
-    padding-top: 100px;
-    text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+/* Text Rules */
 
 h1 {
     margin-bottom: 4%;
 }
+
+
+/* Password generator */
 
 h2#root {
     display: inline-block;
