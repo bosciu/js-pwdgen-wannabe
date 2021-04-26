@@ -6,7 +6,6 @@ var root = document.getElementById("root");
 
 var password = document.getElementById("password");
 
-
 function myFunction() {
     var nomeUtente = prompt("Qual'è il tuo nome?");
 
